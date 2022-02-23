@@ -12,10 +12,11 @@
 <a href="ex6.php"><img id="setaesq" src="seta2.png" alt="seta"></a>
 <a href="ex8.php"><img id="setadir"   src="seta.png" alt="seta"></a>
     <form method="post">
-        <h2>Digite os numeros a serem somados usando espaço para dividi-los</h2>
+         <h3>Exercicio7</h3>
+        <h2>Digite os 10 numeros a serem somados usando espaço para dividi-los</h2>
         <input type="text" id="numero" name="numero" value="">
         <br><br>
-        <input type="submit" name="Repetir" value="Somar">
+        <input type="submit" name="soma" value="Somar">
 
     </form> 
 

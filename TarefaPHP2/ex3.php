@@ -12,6 +12,7 @@
 <a href="ex2.php"><img id="setaesq" src="seta2.png" alt="seta"></a>
 <a href="ex4.php"><img id="setadir"   src="seta.png" alt="seta"></a>
     <form method="post">
+        <h3>Exercicio3</h3>
         <h2>Verificação para alistamento</h2>
         <h2>Digite o seu nome:</h2>
         <input type="text" id="nome" name="nome" value="">

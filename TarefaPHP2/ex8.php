@@ -12,6 +12,7 @@
     <a href="ex7.php"><img id="setaesq" src="seta2.png" alt="seta"></a>
     <a href="ex1.php"><img id="setadir"   src="seta.png" alt="seta"></a>
     <form method="post">
+        <h3>Exercicio8</h3>
         <h2>Digite o numero a calcular a tabuada</h2>
         <input type="number" id="numero" name="numero" value="">
         <br><br>
@@ -28,7 +29,7 @@
         $result = 0;
        for($i = 1 ; $i <= 10 ; $i++ ) {
          
-          if($numero==5 && $i == 5){
+          if($i == 5 && $numero!= 5){
              $i=6; 
           } 
          $result = $numero*$i;

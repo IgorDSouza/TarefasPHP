@@ -12,6 +12,7 @@
 <a href="ex1.php"><img id="setaesq" src="seta2.png" alt="seta"></a>
 <a href="ex3.php"><img id="setadir"   src="seta.png" alt="seta"></a>
     <form method="post">
+        <h3>Exercicio2</h3>
         <h2>Digite a palavra a ser repetida</h2>
         <input type="text" id="palavra" name="palavra" value="">
         <br><br>
