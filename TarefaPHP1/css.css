@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+div.alinha{
+    position: relative;
+    top: 90px;
+}
+input#botao1{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input#numero{
+    font-size: 30px;
+    text-align: center;
+}
+span.emoji{
+    font-size: 40px;
+}
