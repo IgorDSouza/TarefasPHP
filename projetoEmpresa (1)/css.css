@@ -1,0 +1,64 @@
+html{
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+}
+div#cadastro{
+    display: none;
+}
+div#mostrar{
+    display: none;
+}
+div#salario{
+    display: none;
+}
+div#aumentosal{
+    display: none;
+}
+.titulo{
+    font-size: 4vw;
+    text-align: center;
+    border: 1px black solid;
+ 
+}
+.subtitulo{
+    font-size: 2vw;
+    text-align: center;
+}
+form{
+    position: relative;
+    text-align: center;
+}
+.btn{
+    font-size: 2vw;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.btnmostrar{
+    font-size: 2vw;
+    background-color: white;
+    border: none;
+}
+p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#mostrastyle{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.img{
+    width: 40px;
+}
+.btnborda{
+    border: 1px black solid;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+.btnsec{
+    font-size: 1.5vw;
+}
