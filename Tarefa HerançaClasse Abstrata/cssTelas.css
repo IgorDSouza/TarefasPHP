@@ -1,0 +1,46 @@
+body{
+    background-image: url(img/bg.jpg);
+}
+#alinha{
+    display: flex;
+    justify-content:left;
+    position: relative;
+}
+form{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5vw !important;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius: 10px;
+}
+h2{
+    font-size: 5vw;
+    margin: 0px;
+}
+.img{
+    width: 30vw;
+}
+h3{
+    margin:10px;
+    font-size: 2.5vw;
+}
+.enviar{
+    font-size: 3vw;
+    font-family: 'Lobster', cursive;
+}
+#alert{
+    position:fixed;
+    display: block;
+    border: 1px black solid;
+    font-size: 3vw;
+    text-align: center;
+    width: 25%;
+    left: 40%;
+    top: 15%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px white solid;
+    z-index: 1;
+    
+}
