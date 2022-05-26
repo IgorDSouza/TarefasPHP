@@ -4,7 +4,7 @@ require_once '../model/Usuario.php';
 class UsuarioController{
     // Salvar o usuario submetido pelo formulario
 
-    public function salvar(){
+    public static function salvar(){
         //cria um objeto tipo usuario
         $usuario = new Usuario;
         // armazena as informações do POST via set
@@ -16,7 +16,7 @@ class UsuarioController{
         //chama o metodo save para gravar as informações no banco de dados
         $usuario->save();
     }
-    public function listar(){
+    public static function listar(){
         //cria um objeto do tipo Usuario
         $usuario =new Usuario;
         //chama um metodo listAll()

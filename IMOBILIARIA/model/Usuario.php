@@ -41,7 +41,18 @@ class Usuario extends Banco{
     }
 
     public function getPermissao(){
-        return $this->permissao;
+        $retorno;
+        if($this->permissao == "A"){
+            $retorno="Administrador";
+
+        }else if($this->permissao == "C"){
+            $retorno="Comum";
+
+        } else if($this->permissao == "0"){
+            $retorno="Visitante";
+
+        }
+        return $retorno;
     }
 
     public function setPermissao($permissao){

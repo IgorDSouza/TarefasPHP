@@ -1,0 +1,30 @@
+.alinha{
+    display: flex;
+    justify-content: center;
+}
+form{
+    text-align: center;
+    border: 1px black solid;
+    padding:20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+select{
+    width: 180px;
+}
+.tabela{
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px black solid;
+
+}
+th{
+    font-size: 27px;
+}
+td{
+    font-size: 25px;
+}
+h1{
+    font-size: 40px;
+}
